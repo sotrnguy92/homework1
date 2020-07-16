@@ -1,13 +1,16 @@
+/* set all magins and borders to 0 */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* set background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* give the header and menu bar padding font preference and color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,19 @@ header {
     color: #ffffff;
 }
 
+/* Makes all elements of header one line */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* sets color for seo in Horiseon header */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+/* sets padding, margin and font for list in nav bar, floats all elements to right */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +38,29 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+/* no styling on list */
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+/* makes all elements of list in the same line */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* set color of text for list items */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set font size for all paragraphs */
 p {
     font-size: 16px;
 }
 
+/* main image on page */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* class to make things float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class for floating right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* gives content a width of 75% of page and displayed inline with left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* gives benfits aside margin and padding. clear elements to both sides and float aside to right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* give all sections in aside a margin bottom and color for text */
 .benefit-sections {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Heading for aside have a margin between h3 and image. centers text  */
 .benefit-sections h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* gives images in aside block style display and margin with centering */
 .benefit-sections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* gives color and background to text in main content section. separate each section with a bottom margin */
 .search-bar-item {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,26 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* gives each image in the main section a max height */
 .search-bar-item img {
     max-height: 200px;
 }
 
-
-.search-engine-optimization h2 {
+/* specifies font size and bottom margin for each h2 in main content section */
+.search-bar-item h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* gives padddig to footer, centers text, and clear both sides of this section */
 footer {
     padding: 30px;
     clear: both;
@@ -138,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* set font size for header in the footer */
 footer h2 {
     font-size: 20px;
 }
